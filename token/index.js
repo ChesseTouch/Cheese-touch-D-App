@@ -3,7 +3,7 @@ var Web3 = require('web3');
 
 // var web3js = new Web3(web3.currentProvider);
 
-// var web3 = new Web3(Web3.givenProvider || "ws://localhost:8545");
+var web3 = new Web3(Web3.givenProvider || "ws://localhost:8545");
 
 
 const http = require('http');
